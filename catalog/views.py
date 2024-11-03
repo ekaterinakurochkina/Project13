@@ -20,5 +20,5 @@ def contact_data(request):
         message = request.POST.get('message')
         # Обработка данных (например, сохранение в БД, отправка email и т. д.)
         # Здесь мы просто возвращаем простой ответ
-        return HttpResponse(f"Спасибо, {name}! Ваше сообщение получено.")
+        return HttpResponse(f"Спасибо, {name}! Ваше сообщение получено.")#
     return render(request, 'catalog/contacts.html')
