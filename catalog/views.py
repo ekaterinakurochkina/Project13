@@ -21,4 +21,4 @@ def contact_data(request):
         # Обработка данных (например, сохранение в БД, отправка email и т. д.)
         # Здесь мы просто возвращаем простой ответ
         return HttpResponse(f"Спасибо, {name}! Ваше сообщение получено.")#
-    return render(request, 'catalog/contacts.html')
+    return render(request, 'cpython manage.py runserveratalog/contacts.html')
